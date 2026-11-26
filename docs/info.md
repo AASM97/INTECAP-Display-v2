@@ -8,12 +8,11 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+El circuito funciona mediante un contador de 3 bits que genera 8 estados diferentes (del 0 al 7). Estos estados controlan el chip, que se encarga de enviar las señales correspondientes al display de 7 segmentos para mostrar las letras del nombre INTECAP de manera secuencial.
 
 ## How to test
+Para probar el circuito, se debe conectar la alimentación y verificar que el contador de 3 bits avance correctamente. Luego, observar el display de 7 segmentos y comprobar que muestre las letras de INTECAP en el orden establecido. También se debe verificar que la secuencia se repita correctamente después de completar los 8 estados.
 
-Explain how to use your project
 
 ## External hardware
 
